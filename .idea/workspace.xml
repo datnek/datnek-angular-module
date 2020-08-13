@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e73ea2-011e-4764-9729-2d39823cfaeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/tsconfig.base.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/tsconfig.base.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="61e73ea2-011e-4764-9729-2d39823cfaeb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ng-datnek-country-select" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -75,12 +69,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597301301909</updated>
-      <workItem from="1597301305052" duration="398000" />
+      <workItem from="1597301305052" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398000" />
+    <option name="totallyTimeSpent" value="618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
