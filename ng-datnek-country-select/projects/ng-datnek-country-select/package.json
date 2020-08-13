@@ -1,15 +1,15 @@
 {
   "name": "ng-datnek-country-select",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^10.0.6",
-    "@angular/core": "^10.0.6"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0",
+    "@angular/core": "^10.0.6",
     "bootstrap": "^4.5.2",
     "flag-icon-css": "^3.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }

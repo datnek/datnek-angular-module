@@ -1,0 +1,8 @@
+export class Country {
+    constructor(code, name, phoneCode) {
+        this.code = code;
+        this.name = name;
+        this.phoneCode = phoneCode;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY291bnRyeS5tb2RlbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL25nLWRhdG5lay1jb3VudHJ5LXNlbGVjdC9zcmMvbGliL2NvdW50cnkubW9kZWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxPQUFPLE9BQU87SUFDbEIsWUFBbUIsSUFBWSxFQUFTLElBQVksRUFBUyxTQUFpQjtRQUEzRCxTQUFJLEdBQUosSUFBSSxDQUFRO1FBQVMsU0FBSSxHQUFKLElBQUksQ0FBUTtRQUFTLGNBQVMsR0FBVCxTQUFTLENBQVE7SUFBRyxDQUFDO0NBQ25GIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIENvdW50cnkge1xuICBjb25zdHJ1Y3RvcihwdWJsaWMgY29kZTogc3RyaW5nLCBwdWJsaWMgbmFtZTogc3RyaW5nLCBwdWJsaWMgcGhvbmVDb2RlOiBzdHJpbmcpIHt9XG59XG4iXX0=

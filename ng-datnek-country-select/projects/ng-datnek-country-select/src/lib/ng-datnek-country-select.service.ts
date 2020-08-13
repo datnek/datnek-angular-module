@@ -8,7 +8,7 @@ export class NgDatnekCountrySelectService {
 
   url: string;
   constructor(private http: HttpClient) {
-    this.url = './data/country.json';
+    this.url = '/assets/data/country.json';
   }
 
 
