@@ -20,7 +20,8 @@
           },
           "styles": [
             "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "node_modules/select2/dist/css/select2.min.css"
+            "node_modules/select2/dist/css/select2.min.css",
+            "node_modules/flag-icon-css/css/flag-icon.css"
           ],
           "scripts": [
             "node_modules/jquery/dist/jquery.js",
