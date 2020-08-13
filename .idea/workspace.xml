@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e73ea2-011e-4764-9729-2d39823cfaeb" name="Default Changelist" comment="" />
+    <list default="true" id="61e73ea2-011e-4764-9729-2d39823cfaeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/data/country.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/animations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/animations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/browser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/browser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/browser/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/animations/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/common.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/common.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/http/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/common/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/compiler/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/compiler/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/compiler/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/compiler/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/core.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/core.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/core/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/forms/forms.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/forms/forms.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/forms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser-dynamic/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/animations/animations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/animations/animations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/animations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/animations/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/platform-browser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/platform-browser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/platform-browser/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/router.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/testing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/testing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/testing/testing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/@angular/router/testing/testing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/bootstrap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/jquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/popper.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/node_modules/popper.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/public-api.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,8 +57,116 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/data/country.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="4" selection-start-line="1" selection-start-column="2" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/public-api.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/country.model.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>boos</find>
+      <find>phone_code</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>phoneCode</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/package.json" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/data/country.json" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/public-api.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/country.model.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/script.js" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/angular.json" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/country.model.spec.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.module.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.css" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.html" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.service.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.service.spec.ts" />
+        <option value="$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.spec.ts" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -33,6 +187,51 @@
               <item name="Module" type="b2602c69:ProjectViewProjectNode" />
               <item name="Module" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ng-datnek-country-select" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -40,12 +239,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ng-datnek-country-select/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,22 +275,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597301301909</updated>
-      <workItem from="1597301305052" duration="618000" />
+      <workItem from="1597301305052" duration="6903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="618000" />
+    <option name="totallyTimeSpent" value="6903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36633664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -100,5 +308,140 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/ng-package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="2866" column="8" selection-start-line="2866" selection-start-column="8" selection-end-line="2866" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" column="27" selection-start-line="21" selection-start-column="3" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/country.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/country.model.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/public-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/data/country.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="1" selection-start-column="2" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-datnek-country-select/projects/ng-datnek-country-select/src/lib/ng-datnek-country-select.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
