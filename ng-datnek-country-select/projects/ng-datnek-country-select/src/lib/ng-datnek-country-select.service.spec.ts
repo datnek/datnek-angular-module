@@ -20,7 +20,7 @@ describe('NgDatnekCountrySelectService', () => {
   }));
 
 
-  it('should getall country', fakeAsync(inject([NgDatnekCountrySelectService,
+  it('should getall countries use httpclient', fakeAsync(inject([NgDatnekCountrySelectService,
       HttpTestingController],
     (service: NgDatnekCountrySelectService, httpMock: HttpTestingController) => {
 
@@ -29,27 +29,27 @@ describe('NgDatnekCountrySelectService', () => {
         {
           name: 'Afghanistan',
           code: 'AF',
-          phoneCode: '+93'
+          phone_code: '+93'
         },
         {
           name: 'Albania',
           code: 'AL',
-          phoneCode: '+355'
+          phone_code: '+355'
         },
         {
           name: 'Algeria',
           code: 'DZ',
-          phoneCode: '+213'
+          phone_code: '+213'
         },
         {
           name: 'American Samoa',
           code: 'AS',
-          phoneCode: '+1'
+          phone_code: '+1'
         },
         {
           name: 'Andorra',
           code: 'AD',
-          phoneCode: '+376'
+          phone_code: '+376'
         }
       ];
 
@@ -70,5 +70,20 @@ describe('NgDatnekCountrySelectService', () => {
       expect(countries).toEqual(countriesDump);
 
   })));
+
+
+  it('should getall countries present in service', fakeAsync(inject([NgDatnekCountrySelectService],
+    (service: NgDatnekCountrySelectService) => {
+
+      // arrange
+      let countries: Country[] = [];
+
+      // Act
+      countries = service.getData();
+
+      // Assert
+      expect(countries.length).toBeGreaterThan(0);
+
+    })));
 
 });

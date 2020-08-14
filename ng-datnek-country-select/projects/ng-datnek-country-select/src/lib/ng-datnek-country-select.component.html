@@ -1,13 +1,23 @@
 <div class="position-relative">
-  <select class="select2 form-control"
+  <select class="form-control"
           [id]="id"
-          [style]="style"
           [ngClass]="{'when-icon': !!currentCountry}"
+          [style]="style"
           (change)="onChange($event)">
-    <option disabled value="">
+    <option disabled selected value="">
       {{placeholder}}
     </option>
     <option [value]="country.code" *ngFor="let country of countries"> {{country.name}}</option>
   </select>
   <i class="icon" [ngClass]="icon"></i>
 </div>
+
+<!--div class="position-relative">
+  <div [id]="'icon-'+id"></div>
+  <select
+    [id]="id"
+    [style]="style"
+    class="select2 form-control"
+    (change)="onChange($event)"
+    name="threads-icon"></select>
+</div-->

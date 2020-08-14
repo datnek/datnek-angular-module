@@ -11,6 +11,11 @@ export declare class NgDatnekCountrySelectComponent implements OnInit {
     currentCountry: Country;
     style: any;
     constructor(ngDatnekCountrySelectService: NgDatnekCountrySelectService);
-    ngOnInit(): Promise<void>;
+    ngOnInit(): void;
+    refreshCountryAsync(): Promise<void>;
+    refreshCountry(): void;
+    getOption(country: Country): string;
+    getIcon(country: Country): string;
+    setCurrentIcon(value: any): void;
     onChange(e: any): void;
 }

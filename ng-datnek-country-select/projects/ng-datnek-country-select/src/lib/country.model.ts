@@ -1,3 +1,4 @@
 export class Country {
-  constructor(public code: string, public name: string, public phoneCode: string) {}
+  // tslint:disable-next-line:variable-name
+  constructor(public code: string, public name: string, public phone_code: string) {}
 }

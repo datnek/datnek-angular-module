@@ -24,13 +24,26 @@
   width: 20px;
   height: 15px;
   position: absolute;
-  top: 13px;
+  top: 10px;
 }
 
 .when-icon{
-  padding-left:24px;
+  padding-left:31px;
 }
 
 .when-icon option{
   padding-left: inherit;
 }
+
+/*
+
+.select2,
+.select2-container {
+  text-align: left;
+}
+
+#icon {
+  margin: 0 0 10px;
+}
+
+*/

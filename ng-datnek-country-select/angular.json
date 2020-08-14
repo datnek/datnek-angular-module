@@ -13,10 +13,7 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/ng-datnek-country-select/tsconfig.lib.json",
-            "project": "projects/ng-datnek-country-select/ng-package.json",
-            "assets": [
-              "projects/ng-datnek-country-select:src/assets"
-            ]
+            "project": "projects/ng-datnek-country-select/ng-package.json"
           },
           "styles": [
             "./node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -42,10 +39,7 @@
           "options": {
             "main": "projects/ng-datnek-country-select/src/test.ts",
             "tsConfig": "projects/ng-datnek-country-select/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-datnek-country-select/karma.conf.js",
-            "assets": [
-              "projects/ng-datnek-country-select/src/assets"
-            ]
+            "karmaConfig": "projects/ng-datnek-country-select/karma.conf.js"
           }
         },
         "lint": {

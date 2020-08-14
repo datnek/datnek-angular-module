@@ -30,7 +30,7 @@ describe('NgDatnekCountrySelectComponent', () => {
 
 
 
-  it('should getall country in component', fakeAsync(inject([NgDatnekCountrySelectService,
+  it('refresh countries use async', fakeAsync(inject([NgDatnekCountrySelectService,
       HttpTestingController],
     async (service: NgDatnekCountrySelectService, httpMock: HttpTestingController) => {
 
@@ -39,27 +39,27 @@ describe('NgDatnekCountrySelectComponent', () => {
         {
           name: 'Afghanistan',
           code: 'AF',
-          phoneCode: '+93'
+          phone_code: '+93'
         },
         {
           name: 'Albania',
           code: 'AL',
-          phoneCode: '+355'
+          phone_code: '+355'
         },
         {
           name: 'Algeria',
           code: 'DZ',
-          phoneCode: '+213'
+          phone_code: '+213'
         },
         {
           name: 'American Samoa',
           code: 'AS',
-          phoneCode: '+1'
+          phone_code: '+1'
         },
         {
           name: 'Andorra',
           code: 'AD',
-          phoneCode: '+376'
+          phone_code: '+376'
         }
       ];
 
@@ -72,7 +72,7 @@ describe('NgDatnekCountrySelectComponent', () => {
         // console.log('the countries is : ', countries);
       });
 
-      await component.ngOnInit();
+      await component.refreshCountryAsync();
 
       tick(1000);
 
@@ -81,4 +81,28 @@ describe('NgDatnekCountrySelectComponent', () => {
       expect(component.countries).toEqual(countriesDump);
 
     })));
+
+  it('refresh country', fakeAsync(inject([NgDatnekCountrySelectService],
+    (service: NgDatnekCountrySelectService) => {
+
+      // Act
+      component.refreshCountry();
+
+      // Assert
+      expect(component.countries.length).toBeGreaterThan(0);
+
+    })));
+
+
+  it('init data use ngonit', fakeAsync(inject([NgDatnekCountrySelectService],
+    (service: NgDatnekCountrySelectService) => {
+
+      // Act
+      component.ngOnInit();
+
+      // Assert
+      expect(component.countries.length).toBeGreaterThan(0);
+
+  })));
+
 });
