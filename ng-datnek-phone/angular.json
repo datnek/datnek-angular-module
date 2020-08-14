@@ -1,0 +1,60 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ng-datnek-phone": {
+      "projectType": "library",
+      "root": "projects/ng-datnek-phone",
+      "sourceRoot": "projects/ng-datnek-phone/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-datnek-phone/tsconfig.lib.json",
+            "project": "projects/ng-datnek-phone/ng-package.json"
+          },
+          "styles": [
+            "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "node_modules/flag-icon-css/css/flag-icon.css"
+          ],
+          "scripts": [
+            "node_modules/jquery/dist/jquery.js",
+            "node_modules/popper.js/dist/umd/popper.min.js",
+            "node_modules/bootstrap/dist/js/bootstrap.js",
+            "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+          ],
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-datnek-phone/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-datnek-phone/src/test.ts",
+            "tsConfig": "projects/ng-datnek-phone/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-datnek-phone/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-datnek-phone/tsconfig.lib.json",
+              "projects/ng-datnek-phone/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "cli": {
+    "analytics": "b3993b69-e0ff-433f-a201-05d075ad357f"
+  },
+  "defaultProject": "ng-datnek-phone"
+}

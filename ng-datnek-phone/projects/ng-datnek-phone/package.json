@@ -1,0 +1,15 @@
+{
+  "name": "ng-datnek-phone",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.9",
+    "@angular/core": "^10.0.9",
+    "bootstrap": "^4.5.2",
+    "flag-icon-css": "^3.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

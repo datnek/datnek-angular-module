@@ -1,0 +1,13 @@
+<div class="position-relative">
+  <input type="text" class="form-control"
+         autocomplete="off"
+         [id]="id"
+         [style]="style"
+         [ngClass]="{'when-icon': !!currentCountry}"
+         [placeholder]="placeholder"
+         (keyup)="onChange($event)" />
+  <i class="icon" [ngClass]="icon"></i>
+  <span class="small text-muted" *ngIf="error">
+    {{ errorMessage }}
+  </span>
+</div>
