@@ -1,0 +1,75 @@
+
+
+<div class="upload-parent p-2">
+  <div class="upload-children d-flex align-items-center flex-wrap">
+    <div class="upload-child d-flex align-items-center justify-content-center flex-column"
+         [ngStyle]="{'width': dimUpload.width, 'height': dimUpload.height}"
+         [style]="style"
+      >
+      <ngx-file-drop
+        [multiple]="mutiple"
+        accept="{{accept}}"
+        dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
+        (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+        <ng-template ngx-file-drop-content-tmp
+                     let-openFileSelector="openFileSelector">
+          <button type="button"
+                  class="btn btn-link text-white d-flex align-items-center justify-content-center flex-column"
+                  (click)="openFileSelector()">
+            <i class="fa fa-plus-circle mr-2"></i> <span>{{textFileUpload}}</span>
+          </button>
+        </ng-template>
+      </ngx-file-drop>
+      <div class="text-white small">
+        <span class="small">
+          {{ textMax }}
+        </span>
+      </div>
+    </div>
+    <div class="" *ngFor="let item of fileUploads; let i=index">
+      <div class="upload-child upload-child-next"
+           *ngIf="item.type ==='image'"
+           [ngStyle]="{'background-image': 'url(' + item.img + ')', 'width': dimImg.width, 'height': dimImg.height}"
+      >
+        <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
+          <a href="" class="">
+            <i class="mr-2"> x </i>
+          </a>
+        </div>
+        <div class="upload-name text-white p-1 text-center small  upload-child-name-img">
+          {{ item.file.name.length > 15 ? item.file.name.substr(0,15)+'...': item.file.name }}
+        </div>
+      </div>
+      <div class="upload-child upload-child-next"
+           *ngIf="item.type ==='video'"
+           [ngStyle]="{'width': dimImg.width, 'height': dimImg.height}"
+      >
+        <video playsinline="playsinline" preload="auto"  muted loop="loop">
+          <source [src]="item.img">
+        </video>
+        <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
+          <a href="" class="">
+            <i class="mr-2"> x </i>
+          </a>
+        </div>
+        <div class="upload-name text-white p-1 text-center small  upload-child-name-img">
+          {{ item.file.name.length > 15 ? item.file.name.substr(0,15)+'...': item.file.name }}
+        </div>
+      </div>
+      <div class="upload-child upload-child-next d-flex flex-column justify-content-center align-items-center"
+           *ngIf="item.type ==='pdf' || (accepts.all && item.type !== 'image' && item.type !== 'video')"
+           [ngStyle]="{'width': dimImg.width, 'height': dimImg.height}"
+      >
+        <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
+          <a href="" class="">
+            <i class="mr-2"> x </i>
+          </a>
+        </div>
+        <div class="upload-name p-1 text-center small">
+          {{ item.file.name.length > 15 ? item.file.name.substr(0,15)+'...': item.file.name }}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

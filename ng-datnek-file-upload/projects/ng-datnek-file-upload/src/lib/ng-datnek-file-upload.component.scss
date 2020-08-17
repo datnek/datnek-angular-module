@@ -1,0 +1,63 @@
+.upload-parent{
+  overflow: hidden;
+  max-width: 100% !important;
+.upload-children{
+  max-width: 100%;
+.upload-child{
+// width: 150px;
+// height: 150px;
+  margin: 0.5em;
+  border-radius: 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+&:first-child{
+   background-color:  #0782d0;
+ }
+position: relative;
+.upload-action{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: none;
+a{
+  background-color: black;
+  color: white;
+  padding: 2%;
+  padding-right: 3%;
+  padding-left: 4%;
+  border-radius: 2px;
+}
+}
+
+&:hover{
+.upload-action{
+  display: block;
+}
+}
+
+.upload-name{
+  width: 100%;
+}
+.upload-child-name-img{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0.6);
+}
+}
+.upload-child-next{
+  background-color:  #e1e9ee !important;
+}
+}
+}
+
+::ng-deep ngx-file-drop:first-child {
+  border-radius: 0 !important;
+}
