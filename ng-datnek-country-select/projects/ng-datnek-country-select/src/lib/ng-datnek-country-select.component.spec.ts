@@ -1,10 +1,10 @@
 import {async, ComponentFixture, fakeAsync, inject, TestBed, tick} from '@angular/core/testing';
 
 import { NgDatnekCountrySelectComponent } from './ng-datnek-country-select.component';
-import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 import {NgDatnekCountrySelectService} from './ng-datnek-country-select.service';
 import {Country} from './country.model';
 import {of} from 'rxjs';
+import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 
 describe('NgDatnekCountrySelectComponent', () => {
   let component: NgDatnekCountrySelectComponent;

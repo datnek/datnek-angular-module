@@ -1,7 +1,8 @@
 <div class="position-relative">
   <select class="form-control"
           [id]="id"
-          [ngClass]="{'when-icon': !!currentCountry}"
+          [ngClass]="{'when-icon': !!currentCountry,
+          'is-invalid': isErrors}"
           [style]="style"
           (change)="onChange($event)">
     <option disabled selected value="">

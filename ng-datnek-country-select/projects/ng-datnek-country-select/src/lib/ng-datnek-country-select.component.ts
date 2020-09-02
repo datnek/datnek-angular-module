@@ -13,9 +13,11 @@ import {Country} from './country.model';
 export class NgDatnekCountrySelectComponent implements OnInit {
 
 
+
   @Output() countryEventEmitterChange = new EventEmitter<Country>();
   @Input() id = 'utils-country';
   @Input() placeholder: string;
+  @Input() isErrors: boolean;
   countries: Country[];
   icon: string;
   currentCountry: Country;

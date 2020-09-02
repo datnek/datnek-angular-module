@@ -1,8 +1,8 @@
 import {fakeAsync, inject, TestBed} from '@angular/core/testing';
 
 import { NgDatnekCountrySelectService } from './ng-datnek-country-select.service';
-import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 import {Country} from './country.model';
+import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 
 describe('NgDatnekCountrySelectService', () => {
   // let service: NgDatnekCountrySelectService;

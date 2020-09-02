@@ -14,6 +14,7 @@ export class NgDatnekPhoneComponent implements OnInit {
   @Input() id = 'utils-phone';
   @Input() placeholder: string;
   @Input() errorMessage: string;
+  @Input() isErrors: boolean;
   countries: Country[];
   icon: string;
   @Input() style: any;
