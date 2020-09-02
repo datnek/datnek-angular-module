@@ -9,6 +9,11 @@
 
 # dependencies
 /node_modules
+*/node_modules
+*/ng-datnek-country-select/node_modules
+*/ng-datnek-select2/node_modules
+*/ng-datnek-phone/node_modules
+*/ng-datnek-file-upload/node_modules
 
 # profiling files
 chrome-profiler-events*.json
