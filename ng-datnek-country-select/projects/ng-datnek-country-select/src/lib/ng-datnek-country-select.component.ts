@@ -18,6 +18,7 @@ export class NgDatnekCountrySelectComponent implements OnInit {
   @Input() id = 'utils-country';
   @Input() placeholder: string;
   @Input() isErrors: boolean;
+  @Input() country: string;
   countries: Country[];
   icon: string;
   currentCountry: Country;

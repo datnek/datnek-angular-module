@@ -1,0 +1,23 @@
+{
+  "name": "ng-datnek-select-country",
+  "version": "1.0.3",
+  "peerDependencies": {
+    "@angular/common": "^10.0.6",
+    "@angular/core": "^10.0.6",
+    "bootstrap": "^4.5.2",
+    "flag-icon-css": "^3.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ng-datnek-select-country.umd.js",
+  "module": "fesm2015/ng-datnek-select-country.js",
+  "es2015": "fesm2015/ng-datnek-select-country.js",
+  "esm2015": "esm2015/ng-datnek-select-country.js",
+  "fesm2015": "fesm2015/ng-datnek-select-country.js",
+  "typings": "ng-datnek-select-country.d.ts",
+  "metadata": "ng-datnek-select-country.metadata.json",
+  "sideEffects": false
+}

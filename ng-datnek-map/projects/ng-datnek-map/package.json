@@ -1,0 +1,18 @@
+{
+  "name": "ng-datnek-map",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14",
+    "@agm/core": "^1.0.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "ng-datnek-select-country": "^1.0.2",
+    "popper.js": "^1.16.1",
+    "flag-icon-css": "^3.5.0",
+    "@ng-bootstrap/ng-bootstrap": "^7.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

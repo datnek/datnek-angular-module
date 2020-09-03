@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { NgDatnekFileUploadComponent } from './ng-datnek-file-upload.component';
-import {CommonModule} from '@angular/common';
 import {NgxFileDropModule} from 'ngx-file-drop';
+import {CommonModule} from '@angular/common';
 
 
 
 @NgModule({
   declarations: [NgDatnekFileUploadComponent],
   imports: [
-    CommonModule,
-    NgxFileDropModule
+    NgxFileDropModule,
+    CommonModule
   ],
   exports: [NgDatnekFileUploadComponent]
 })

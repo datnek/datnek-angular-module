@@ -1,6 +1,7 @@
 <div class="position-relative">
   <select class="form-control"
           [id]="id"
+          [(ngModel)]="country"
           [ngClass]="{'when-icon': !!currentCountry,
           'is-invalid': isErrors}"
           [style]="style"

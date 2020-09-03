@@ -8,7 +8,7 @@
       >
       <ngx-file-drop
         [multiple]="mutiple"
-        accept="{{accept}}"
+        [accept]="accept"
         dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
         (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
         <ng-template ngx-file-drop-content-tmp
@@ -16,7 +16,7 @@
           <button type="button"
                   class="btn btn-link text-white d-flex align-items-center justify-content-center flex-column"
                   (click)="openFileSelector()">
-            <i class="fa fa-plus-circle mr-2"></i> <span>{{textFileUpload}}</span>
+            <i class="fa fa-plus-circle mr-3"></i> <span>{{textFileUpload}}</span>
           </button>
         </ng-template>
       </ngx-file-drop>
@@ -33,7 +33,7 @@
       >
         <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
           <a href="" class="">
-            <i class="mr-2"> x </i>
+            <i class="mr-3"> x </i>
           </a>
         </div>
         <div class="upload-name text-white p-1 text-center small  upload-child-name-img">
@@ -49,7 +49,7 @@
         </video>
         <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
           <a href="" class="">
-            <i class="mr-2"> x </i>
+            <i class="mr-3"> x </i>
           </a>
         </div>
         <div class="upload-name text-white p-1 text-center small  upload-child-name-img">
@@ -62,7 +62,7 @@
       >
         <div class="upload-action p-2  text-right" (click)="removeFile($event,i)">
           <a href="" class="">
-            <i class="mr-2"> x </i>
+            <i class="mr-3"> x </i>
           </a>
         </div>
         <div class="upload-name p-1 text-center small">

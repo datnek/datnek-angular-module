@@ -1,9 +1,9 @@
 {
   "name": "ng-datnek-select-country",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "peerDependencies": {
-    "@angular/common": "^10.0.6",
-    "@angular/core": "^10.0.6",
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14",
     "bootstrap": "^4.5.2",
     "flag-icon-css": "^3.5.0",
     "jquery": "^3.5.1",
