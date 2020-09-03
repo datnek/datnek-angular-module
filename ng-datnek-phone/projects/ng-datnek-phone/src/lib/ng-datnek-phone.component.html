@@ -3,7 +3,8 @@
          autocomplete="off"
          [id]="id"
          [style]="style"
-         [ngClass]="{'when-icon': !!currentCountry,
+         [(ngModel)]="phone"
+         [ngClass]="{'when-icon': !!currentCountry ,
           'is-invalid': isErrors}"
          [placeholder]="placeholder"
          (keyup)="onChange($event)" />

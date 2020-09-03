@@ -15,6 +15,7 @@ export class NgDatnekPhoneComponent implements OnInit {
   @Input() placeholder: string;
   @Input() errorMessage: string;
   @Input() isErrors: boolean;
+  @Input() phone: string;
   countries: Country[];
   icon: string;
   @Input() style: any;
@@ -30,6 +31,11 @@ export class NgDatnekPhoneComponent implements OnInit {
 
     if (this.errorMessage == null) {
       this.errorMessage = 'Example of a valid phone: +32 000000000';
+    }
+
+    if (this.phone){
+      this.setCountry(this.phone);
+      this.updateTemplate(null, this.phone);
     }
   }
 
@@ -53,6 +59,10 @@ export class NgDatnekPhoneComponent implements OnInit {
     const exp = '^\\+[0-9]{1,3}([ ]?)([0-9]([ ]?)){6,}$';
     this.setCountry(value);
 
+    this.updateTemplate(exp, value);
+  }
+
+  updateTemplate(exp, value): void{
     if (!!this.currentCountry) {
       this.icon = `flag-icon  flag-icon-${this.currentCountry.code.toLowerCase()}`;
     } else {
@@ -60,7 +70,7 @@ export class NgDatnekPhoneComponent implements OnInit {
       this.error = true;
     }
 
-    if (new RegExp(exp).test(value)) {
+    if (exp && new RegExp(exp).test(value)) {
       this.error = false;
       this.phoneEventEmitterChange.emit({phone: value, country: this.currentCountry});
     }

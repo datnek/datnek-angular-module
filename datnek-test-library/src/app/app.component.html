@@ -34,6 +34,7 @@
         <lib-ng-datnek-phone
           id="home-about-phone"
           [isErrors]="false"
+          phone="+32465701000"
           (phoneEventEmitterChange)="onCountryListener($event)"
         ></lib-ng-datnek-phone>
       </div>
@@ -43,6 +44,7 @@
         <lib-ng-datnek-select-country
           id="home-about-country"
           [isErrors]="false"
+          country="BE"
           (countryEventEmitterChange)="onCountryListener($event)"
         ></lib-ng-datnek-select-country>
       </div>
